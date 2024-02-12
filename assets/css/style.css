@@ -1,0 +1,39 @@
+#container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 95vh;
+   width: 95vw;
+   border-radius: 1px solid black;
+
+}
+
+.flex-container{
+    border: 1px solid black;
+    background-color: rgb(223, 220, 220);
+    padding: 10px;
+    width: 30rem;
+}
+
+#text input{
+    width: 25rem;
+    height: 28px;
+}
+
+#text button{
+    background-color: rgb(83, 15, 83);
+    color: white;
+    height: 30px;
+    border-radius: 10%;
+}
+
+#informacion{
+    display: flex;
+    gap: 120px;
+}
+
+table{
+    padding-left: 40px;
+}
+
